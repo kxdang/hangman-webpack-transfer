@@ -1,5 +1,12 @@
-import Hangman from "./hangman";
 import getPuzzle from "./requests";
+import validator from "validator";
+
+console.log(uuidv4());
+console.log(uuidv4());
+
+const email = "kiendanggmail.com";
+
+console.log(validator.isEmail(email));
 
 const word = document.querySelector("#word");
 const guessesLeft = document.querySelector("#guesses-left");
